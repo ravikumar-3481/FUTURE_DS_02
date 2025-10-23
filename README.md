@@ -1,5 +1,5 @@
 #  Facebook Ads Campaign Performance Analysis  
-<img width="1101" height="500" alt="Screenshot 2025-09-10 000046" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-09-10%20000046.png" />
+<img width="1101" height="500" alt="Screenshot 2025-09-10 000046" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Dashboard.jpg" />
 
 Businesses invest heavily in social media ads but many struggle to answer critical questions:  
 
@@ -50,43 +50,43 @@ This project analyzes **Facebook Ads data** to uncover insights and builds an **
 ##  Visuals  
 ### Power BI Dashboard  
  
-<img width="1101" height="500" alt="Screenshot 2025-09-10 000046" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-09-10%20000046.png" />
+<img width="1101" height="500" alt="Screenshot 2025-09-10 000046" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Dashboard.jpg" />
 
 ### JUPYTER NOTEBOOK VISUALS  
 
 <p align="center"><b>DISTRIBUTION OF CTR ACROSS ADS</b></p>  
 <p align="center">
-  <img width="570" height="352" src="https://github.com/user-attachments/assets/88080e6e-5080-49ab-92e3-d992efbe1094" />
+  <img width="570" height="352" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Ctr.png" />
 </p>  
 
 <p align="center"><b>AVERAGE CPA BY GENDER</b></p>  
 <p align="center">
-  <img width="420" height="347" src="https://github.com/user-attachments/assets/2371d5a0-577d-4815-af13-e5d1c818a829" />
+  <img width="420" height="347" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Cpa.png" />
 </p>  
 
 <p align="center"><b>CTR VS ROI</b></p>  
 <p align="center">
-  <img width="530" height="402" src="https://github.com/user-attachments/assets/071072e4-33c2-4181-92da-63718970d833" />
+  <img width="530" height="402" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000433.png" />
 </p>  
 
 <p align="center"><b>AVERAGE CPA BY AGE GROUP</b></p>  
 <p align="center">
-  <img width="532" height="355" src="https://github.com/user-attachments/assets/110c34b5-1417-4a98-a06d-49cfc3faf13d" />
+  <img width="532" height="355" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000512.png" />
 </p>  
 
 <p align="center"><b>SPEND VS APPROVED CONVERSIONS</b></p>  
 <p align="center">
-  <img width="768" height="493" src="https://github.com/user-attachments/assets/1bc675ba-16d4-4187-9685-6c5b5d42cfd9" />
+  <img width="768" height="493" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000547.png" />
 </p>  
 
 <p align="center"><b>ROI BY GENDER</b></p>  
 <p align="center">
-  <img width="422" height="350" src="https://github.com/user-attachments/assets/86139177-317b-4480-a48b-241894e7bd7e" />
+  <img width="422" height="350" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000612.png" />
 </p>  
 
 <p align="center"><b>CTR BY AGE GROUP</b></p>  
 <p align="center">
-  <img width="546" height="363" src="https://github.com/user-attachments/assets/74aefa35-3519-4fd7-b6c7-cbd2ff5962eb" />
+  <img width="546" height="363" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000634.png" />
 </p>  
 
 ## Key Insights  
