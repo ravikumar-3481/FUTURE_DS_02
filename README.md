@@ -1,5 +1,5 @@
 #  Facebook Ads Campaign Performance Analysis  
-<img width="1101" height="500" alt="Screenshot 2025-09-10 000046" src="https://github.com/user-attachments/assets/8f81ec79-3e1a-49d6-91cc-a4538eb31295" />
+<img width="1101" height="500" alt="Screenshot 2025-09-10 000046" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-09-10%20000046.png" />
 
 Businesses invest heavily in social media ads but many struggle to answer critical questions:  
 
