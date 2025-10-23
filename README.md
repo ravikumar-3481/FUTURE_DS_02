@@ -50,7 +50,7 @@ This project analyzes **Facebook Ads data** to uncover insights and builds an **
 ##  Visuals  
 ### Power BI Dashboard  
  
-<img width="1101" height="500" alt="Screenshot 2025-09-10 000046" src="https://github.com/user-attachments/assets/47accf11-f355-496c-a300-776f0a236487" />
+<img width="1101" height="500" alt="Screenshot 2025-09-10 000046" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-09-10%20000046.png" />
 
 ### JUPYTER NOTEBOOK VISUALS  
 
