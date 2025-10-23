@@ -1,126 +1,163 @@
-#  Facebook Ads Campaign Performance Analysis  
-<img width="1101" height="500" alt="Screenshot 2025-09-10 000046" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Dashboard.jpg" />
+# 📊 Facebook Ads Campaign Performance Analysis  
 
-Businesses invest heavily in social media ads but many struggle to answer critical questions:  
-
-- Are campaigns really performing well?  
-- Which ads drive the most engagement and conversions?  
-- How effective is the spend in terms of CTR (Click-Through Rate) and ROI (Return on Investment)?  
-- Where should the budget be reallocated for better results?  
-
-This project analyzes **Facebook Ads data** to uncover insights and builds an **interactive Power BI dashboard** to visualize campaign performance 
+<p align="center">
+  <img width="1100" height="500" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Dashboard.jpg" alt="Facebook Ads Dashboard Overview">
+</p>
 
 ---
 
-##  Dataset  
-- **Source**: [Kaggle – Facebook Ad Campaign Dataset](https://www.kaggle.com/datasets/madislemsalu/facebook-ad-campaign)  
-- **Records**: 761 rows × 15 columns  
-- **Key fields**: `impressions`, `clicks`, `spent`, `total_conversion`, `approved_conversion`  
+## 🧠 Project Overview  
+Businesses invest heavily in social media advertising, yet many struggle to answer key performance questions:
+
+- Are the campaigns actually performing well?  
+- Which ads generate the most engagement and conversions?  
+- How efficiently is the ad spend utilized in terms of CTR and ROI?  
+- Where should the marketing budget be reallocated for better outcomes?  
+
+This project analyzes **Facebook Ads Campaign data** to uncover actionable insights and visualize them through an **interactive Power BI dashboard**.  
+The goal is to empower **data-driven marketing decisions** and **optimize ad performance**.
 
 ---
 
-##  Tools & Technologies  
-- **Python (Pandas, Matplotlib, Seaborn)**: Data cleaning, EDA, metrics calculation  
-- **Power BI** : Interactive dashboard creation  
-- **Jupyter Notebook** : Exploratory analysis & visualization  
+## 🗂️ Dataset Information  
+- **Source:** [Kaggle – Facebook Ad Campaign Dataset](https://www.kaggle.com/datasets/madislemsalu/facebook-ad-campaign)  
+- **Size:** 761 rows × 15 columns  
+- **Key Fields:** `impressions`, `clicks`, `spent`, `total_conversion`, `approved_conversion`  
 
 ---
 
-##  Project Workflow  
-### 1. Data Cleaning & Preparation  
-- Fixed **misaligned data** using Google Sheets  
-- Converted **date fields** to `datetime` format  
-- Handled **missing values** and removed **duplicates**  
-- Created **new metrics**: CTR, CPC, CPA, ROI, Conversion Rate  
-
-
-### 2. Exploratory Data Analysis (EDA)  
-- Summary statistics & distributions  
-- Engagement analysis (clicks, impressions, conversions)  
-- Performance by **age** and **gender**  
-
-### 3. Dashboard Design (Power BI)  
-- KPIs Overview (Impressions, Clicks, Spend, Conversions, CTR, ROI, CPA)  
-- Engagement insights (Top ads by conversions & CTR)  
-- Demographic performance (CTR by Age, ROI by Gender, CPA by Age)  
-- ROI vs CTR scatter analysis  
+## 🛠️ Tools & Technologies  
+- **Python:** Data cleaning, EDA, and metrics computation (`Pandas`, `Matplotlib`, `Seaborn`)  
+- **Power BI:** Interactive dashboard creation and KPI tracking  
+- **Jupyter Notebook:** Exploratory analysis and visualization  
 
 ---
 
-##  Visuals  
-### Power BI Dashboard  
- 
-<img width="1101" height="500" alt="Screenshot 2025-09-10 000046" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Dashboard.jpg" />
+## 🚀 Project Workflow  
 
-### JUPYTER NOTEBOOK VISUALS  
-
-<p align="center"><b>DISTRIBUTION OF CTR ACROSS ADS</b></p>  
-<p align="center">
-  <img width="570" height="352" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Ctr.png" />
-</p>  
-
-<p align="center"><b>AVERAGE CPA BY GENDER</b></p>  
-<p align="center">
-  <img width="420" height="347" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Cpa.png" />
-</p>  
-
-<p align="center"><b>CTR VS ROI</b></p>  
-<p align="center">
-  <img width="530" height="402" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000433.png" />
-</p>  
-
-<p align="center"><b>AVERAGE CPA BY AGE GROUP</b></p>  
-<p align="center">
-  <img width="532" height="355" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000512.png" />
-</p>  
-
-<p align="center"><b>SPEND VS APPROVED CONVERSIONS</b></p>  
-<p align="center">
-  <img width="768" height="493" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000547.png" />
-</p>  
-
-<p align="center"><b>ROI BY GENDER</b></p>  
-<p align="center">
-  <img width="422" height="350" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000612.png" />
-</p>  
-
-<p align="center"><b>CTR BY AGE GROUP</b></p>  
-<p align="center">
-  <img width="546" height="363" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000634.png" />
-</p>  
-
-## Key Insights  
-- Campaign delivered **78M+ impressions**, **11K+ clicks**, and **585 conversions** 
-- CTR was extremely low (**0.01%**), showing weak engagement despite high reach 
-- Certain ads (like **1121206**) achieved exceptionally high ROI (~34x) with modest spend
-- **Age 30–34** and **male users** delivered better ROI compared to other segments
+### **1️⃣ Data Cleaning & Preparation**
+- Fixed **misaligned entries** and ensured data consistency via Google Sheets.  
+- Converted **date fields** to `datetime` format.  
+- Handled **missing values** and removed **duplicates**.  
+- Engineered new metrics:  
+  - CTR (Click-Through Rate)  
+  - CPC (Cost per Click)  
+  - CPA (Cost per Acquisition)  
+  - ROI (Return on Investment)  
+  - Conversion Rate  
 
 ---
 
-##  Recommendations  
-- Run **A/B testing** on creatives to improve CTR.  
-- Reallocate budget toward **high-ROI ads & demographics**.  
-- Optimize **landing pages** to reduce CPA.  
-- Continuously track **CTR, CPC, and ROI** for real-time optimization.  
+### **2️⃣ Exploratory Data Analysis (EDA)**  
+- Descriptive statistics and value distributions.  
+- Engagement analysis across impressions, clicks, and conversions.  
+- Performance segmentation by **age** and **gender** demographics.  
 
 ---
 
-## Conclusion  
-The analysis highlights a clear gap between **reach and engagement**. While the campaign successfully delivered massive impressions, CTR remained poor limiting conversion efficiency. However, identifying **high-ROI ads** and **demographics with better performance** provides actionable direction for optimization  
+### **3️⃣ Dashboard Design (Power BI)**  
+- KPI summary: *Impressions, Clicks, Spend, Conversions, CTR, ROI, CPA*  
+- Engagement insights: *Top ads by CTR and conversions*  
+- Demographic breakdowns: *CTR by Age, ROI by Gender, CPA by Age*  
+- ROI vs CTR correlation visualization  
 
-This project demonstrates how **data-driven insights** can guide smarter ad spend, improve targeting and ultimately maximize campaign ROI 
 ---
 
-##  Project Structure  
+## 📈 Visual Insights  
+
+### 🔹 Power BI Dashboard  
+<p align="center">
+  <img width="1100" height="500" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Dashboard.jpg" alt="Power BI Dashboard">
+</p>
+
+---
+
+### 🔹 Jupyter Notebook Visuals  
+
+**CTR Distribution Across Ads**  
+<p align="center">
+  <img width="570" height="352" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Ctr.png" alt="CTR Distribution">
+</p>
+
+**Average CPA by Gender**  
+<p align="center">
+  <img width="420" height="347" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Cpa.png" alt="CPA by Gender">
+</p>
+
+**CTR vs ROI Relationship**  
+<p align="center">
+  <img width="530" height="402" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000433.png" alt="CTR vs ROI">
+</p>
+
+**Average CPA by Age Group**  
+<p align="center">
+  <img width="532" height="355" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000512.png" alt="CPA by Age Group">
+</p>
+
+**Spend vs Approved Conversions**  
+<p align="center">
+  <img width="768" height="493" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000547.png" alt="Spend vs Conversions">
+</p>
+
+**ROI by Gender**  
+<p align="center">
+  <img width="422" height="350" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000612.png" alt="ROI by Gender">
+</p>
+
+**CTR by Age Group**  
+<p align="center">
+  <img width="546" height="363" src="https://github.com/ravikumar-3481/FUTURE_DS_02/blob/main/Images/Screenshot%202025-10-23%20000634.png" alt="CTR by Age Group">
+</p>
+
+---
+
+## 💡 Key Insights  
+- The campaign delivered **78M+ impressions**, **11K+ clicks**, and **585 conversions**.  
+- CTR remained **very low (0.01%)**, indicating low engagement despite massive reach.  
+- Some ads (e.g., **Ad ID 1121206**) achieved **exceptional ROI (~34x)** with modest spend.  
+- The **30–34 age group** and **male demographic** performed best in terms of ROI.  
+
+---
+
+## 🎯 Recommendations  
+- Run **A/B testing** on creatives to boost CTR.  
+- **Reallocate budget** to high-ROI ads and target high-performing demographics.  
+- Optimize **landing pages** to lower CPA.  
+- Implement **real-time KPI monitoring** (CTR, CPC, ROI) for continuous optimization.  
+
+---
+
+## 🧾 Conclusion  
+The analysis reveals a significant gap between **reach** and **engagement**.  
+While the campaign achieved massive visibility, **click-through and conversion rates** remained underwhelming.  
+However, identifying **high-ROI ads** and **profitable audience segments** enables marketers to **optimize budget allocation** and **improve ROI efficiency**.  
+
+This project demonstrates how **data analytics** can turn raw ad data into **strategic marketing insights**, enabling smarter decisions and higher campaign performance.
+
+---
+
+## 📁 Project Structure  
 ```bash
 ├── Data/
 │   └── data.csv              
 ├── Images/                    
-│   ├── insights.png          
-│   ├── ctr_age.png             
-│   ├── roi_ctr.png            
-│   └── cpa_gender.png          
+│   ├── Ctr.png
+│   ├── Cpa.png
+│   ├── Screenshot_2025-10-23_000433.png
+│   ├── Screenshot_2025-10-23_000512.png
+│   ├── Screenshot_2025-10-23_000547.png
+│   ├── Screenshot_2025-10-23_000612.png
+|   ├── insights.png
+|   ├── dashboard.jpg
+│   └── Screenshot_2025-10-23_000634.png
 ├── index.ipynb                
-├── Facebook ads Report.pbix   
+├── Facebook Ads Report.pbix
 ├── FinalData.csv             
-└── README.md               
+└── README.md
+ 
+```
+### 🧑‍💻 Aurhor
+**Ravi Vishwakarma**
+🔗 [**Linkedin**](https://www.linkedin.com/in/ravi-vishwakarma67)
+🔗 [**Portfolio**](https://profileravi.vercel.app)
+🔗 [**Github**](https://github.com/ravikumar-3481)
